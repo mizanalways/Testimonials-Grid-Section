@@ -1,0 +1,208 @@
+:root {
+  --moderateViolet: hsl(263, 55%, 52%);
+  --darkGrayishBlue: hsl(217, 19%, 35%);
+  --darkBlackishBlue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --lightGray: hsl(0, 0%, 81%);
+  --lightGrayishBue: hsl(210, 46%, 95%);
+  --borderColor: #a775f2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+p,
+span {
+  color: var(--lightGray);
+  font-size: 15px;
+}
+h2 {
+  color: var(--lightGrayishBue);
+  font-size: 25px;
+  font-weight: 500;
+}
+body {
+  background: var(--lightGrayishBue);
+}
+main {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  width: 1070px;
+}
+.top_section {
+  display: flex;
+  justify-content: space-between;
+}
+.top_section_one {
+  width: 700px;
+  background-color: var(--moderateViolet);
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 421px 0px;
+  background-size: 150px;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.top_section_one_title img {
+  float: left;
+  border: 2px solid var(--borderColor);
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.top_section_one_title p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--lightGrayishBue);
+}
+.top_section_one_info {
+  margin-top: 20px;
+}
+.top_section_one_info h2 {
+  margin-bottom: 15px;
+}
+.top_section_two {
+  width: 330px;
+  background: var(--darkGrayishBlue);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.top_section_two_title img {
+  float: left;
+  border: 2px solid var(--borderColor);
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.top_section_two_title p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--lightGrayishBue);
+}
+.top_section_two_info {
+  margin-top: 20px;
+}
+.top_section_two_info h2 {
+  margin-bottom: 15px;
+}
+.bottom_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.bottom_section_one {
+  width: 330px;
+  background: var(--White);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom_section_one_title img {
+  float: left;
+  border: 2px solid var(--borderColor);
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.bottom_section_one_title p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--darkBlackishBlue);
+}
+.bottom_section_one_title span {
+  color: var(--darkGrayishBlue);
+}
+.bottom_section_one_info {
+  margin-top: 20px;
+}
+.bottom_section_one_info h2 {
+  margin-bottom: 15px;
+  color: var(--darkBlackishBlue);
+}
+.bottom_section_one_info p {
+  color: var(--darkGrayishBlue);
+}
+.bottom_section_two {
+  width: 700px;
+  background: var(--darkBlackishBlue);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom_section_two_title img {
+  float: left;
+  border: 2px solid var(--borderColor);
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.bottom_section_two_title p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--lightGrayishBue);
+}
+.bottom_section_two_info {
+  margin-top: 20px;
+}
+.bottom_section_two_info h2 {
+  margin-bottom: 15px;
+}
+aside {
+  width: 330px;
+  background: var(--White);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+aside img {
+  float: left;
+  border: 2px solid var(--borderColor);
+  border-radius: 100px;
+  margin-right: 20px;
+}
+aside p {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--darkGrayishBlue);
+}
+aside span {
+  color: var(--darkGrayishBlue);
+}
+.aside_info h2 {
+  color: var(--darkBlackishBlue);
+}
+.aside_info {
+  margin-top: 20px;
+}
+.aside_info p {
+  margin-top: 25px;
+  color: var(--darkGrayishBlue);
+  line-height: 22px;
+  font-weight: 400;
+}
+footer {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+footer a {
+  color: var(--darkBlackishBlue);
+  font-weight: 500;
+  text-decoration: none;
+}
